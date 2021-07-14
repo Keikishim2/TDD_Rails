@@ -1,0 +1,59 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+    text-align: center;
+}
+body{
+    background: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f081e7c8-7545-4f4a-96b9-270911e16d4d/dd9rf3g-bdc75966-5d34-40f3-a756-4cb4e863ae57.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2YwODFlN2M4LTc1NDUtNGY0YS05NmI5LTI3MDkxMWUxNmQ0ZFwvZGQ5cmYzZy1iZGM3NTk2Ni01ZDM0LTQwZjMtYTc1Ni00Y2I0ZTg2M2FlNTcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Se2xRfYTDLGVu6GocWPIsmSZiT3bWBQs-_62lkm8w1g'), blue;
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: -90px;
+}
+h1{
+    font-weight: bolder;
+    font-size: 35px;
+}
+input{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+#post{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 120px;
+    background: gold;
+}
+.wrapper{
+    border: 3px inset gold;
+    width: 20vw;
+    margin: 70px auto;
+    height: 70vh;
+    background: url('https://pbs.twimg.com/media/E6E_yojVUAMbRdV.jpg'), darkblue;
+    filter: hue-rotate(10);
+    background-blend-mode: hard-light;
+    background-position-x: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+textarea{
+    width: 800px;
+    background: url('http://4.bp.blogspot.com/-7IyactEEWF4/UMVjWMqaTQI/AAAAAAAAAFo/uhMNC70YHZQ/s1600/blankstaff.png'), skyblue;
+    background-position-y: 50%;
+}
+#head h1{
+    color: yellow;
+}
+#msg{
+    border: 2px ridge skyblue;
+    width: 500px;
+    margin: 20px auto;
+    background: url('https://freepikpsd.com/media/2020/06/blue-glitters-png-2.png'), snow;
+    background-position-y: 30%;
+}
